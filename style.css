@@ -66,7 +66,7 @@ header>section>div>p {
     padding: 0 20px 0 20px;
 }
 
-.working-team>p {
+.section-title {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -157,6 +157,66 @@ header>section>div>p {
     margin-right: 5px;
 }
 
+/* customer-part */
+.customer-part {
+    background-image: url("Images/Customer\ bg\ .png");
+    background-color: #F9F9F9;
+    background-size: 100%;
+    max-height: 700px;
+}
+
+.customer-all {
+    max-width: 1136px;
+    margin: 0px auto 0px auto;
+    padding: 150px 20px 0 20px;
+}
+
+.customer-all h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    margin-top: 23px;
+    margin-bottom: 0;
+    color: #000;
+}
+
+.allcard {
+    margin-top: 100px;
+    display: flex;
+    width: 1370px;
+    overflow-x: auto;
+}
+
+.customer-card {
+    box-shadow: 1px 1px 10px rgb(189, 189, 189);
+    width: 400px;
+    margin-right: 30px;
+}
+
+.customer-card img {
+    max-width: 400px;
+}
+
+.customer-card p {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 254px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    letter-spacing: -0.02em;
+    padding-left: 60px;
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 1550px) {
+
+    .allcard {
+        max-width: 100%;
+    }
+
+}
+
 @media only screen and (max-width: 1200px) {
 
     /* Banner  */
@@ -166,6 +226,17 @@ header>section>div>p {
         max-width: 600px;
         left: 85px;
     }
+}
+
+@media only screen and (max-width: 1020px) {
+
+    .customer-part {
+        background-image: none;
+        background-color: #F9F9F9;
+        background-size: 100%;
+        max-height: 700px;
+    }
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -180,7 +251,14 @@ header>section>div>p {
 
     /* working-team */
     .working-team>h1 {
-        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 50px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    /* .customer  */
+    .customer-all h1 {
         font-weight: 500;
         font-size: 50px;
         margin-top: 25px;
@@ -214,6 +292,9 @@ header>section>div>p {
         left: 40px;
     }
 
+    .customer-all h1 {
+        font-size: 40px;
+    }
 }
 
 @media only screen and (max-width: 590px) {
@@ -243,6 +324,11 @@ header>section>div>p {
     .working-people {
         margin-top: 50px;
     }
+
+    .customer-all h1 {
+        font-size: 35px;
+    }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -287,5 +373,15 @@ header>section>div>p {
         letter-spacing: -0.01em;
         color: #222222;
         margin-right: 5px;
+    }
+
+    .customer-all h1 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .customer-all h1 {
+        font-size: 25px;
     }
 }
