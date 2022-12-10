@@ -168,7 +168,7 @@ header>section>div>p {
 .customer-all {
     max-width: 1136px;
     margin: 0px auto 0px auto;
-    padding: 150px 20px 0 20px;
+    padding: 100px 20px 0 20px;
 }
 
 .customer-all h1 {
@@ -181,10 +181,11 @@ header>section>div>p {
 }
 
 .allcard {
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     width: 1370px;
-    overflow-x: auto;
+    overflow: auto;
+
 }
 
 .customer-card {
@@ -207,6 +208,101 @@ header>section>div>p {
     letter-spacing: -0.02em;
     padding-left: 60px;
     padding-bottom: 30px;
+}
+
+
+/* Industry-part */
+.industry-part {
+    margin-top: 460px;
+    padding: 0 20px;
+}
+
+.industry-top {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1460px;
+    margin-left: auto;
+
+}
+
+.industry-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    letter-spacing: -0.02em;
+    color: #222222;
+}
+
+.industry-body {
+    max-width: 1346px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.industry-body .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 5px;
+    color: #9198A0;
+    margin-left: 20px;
+}
+
+.all-services {
+    margin-left: 20px;
+    margin-top: 100px;
+    padding-left: 50px;
+    border-left: 1px solid #EC2232;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service {
+    max-width: 584px;
+    display: flex;
+    gap: 30px;
+}
+
+.m {
+    margin-bottom: 180px;
+}
+
+.service>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 5px;
+    color: #F0E3D8;
+    margin: 0;
+}
+
+.service>img {
+    max-height: 80px;
+}
+
+.service>div>h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    color: #222222;
+    margin: 0 0 13px 0;
+}
+
+.service>div>h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    color: #000000;
+    margin: 0;
 }
 
 @media only screen and (max-width: 1550px) {
@@ -381,7 +477,33 @@ header>section>div>p {
 }
 
 @media only screen and (max-width: 420px) {
+    .customer-all {
+        padding: 40px 20px 0 20px;
+    }
+
     .customer-all h1 {
         font-size: 25px;
     }
+
+    .allcard {
+        margin-top: 30px;
+    }
+
+    .customer-card {
+        box-shadow: 1px 1px 10px rgb(189, 189, 189);
+        width: 300px;
+        margin-right: 30px;
+    }
+
+    .customer-card img {
+        max-width: 300px;
+    }
+
+    .customer-card p {
+        font-size: 24px;
+        line-height: 33px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+
 }
