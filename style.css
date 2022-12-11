@@ -311,6 +311,7 @@ header>section>div>p {
     background-image: url("Images/loaer\ baner.png");
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 100%;
     margin-top: 120px;
 }
 
@@ -319,7 +320,7 @@ header>section>div>p {
     max-width: 842.32px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 80px;
+    padding-top: 40px;
     display: grid;
     grid-template-columns: auto 1fr;
     color: white;
@@ -415,6 +416,96 @@ header>section>div>p {
     margin-right: auto;
 }
 
+/* Get in touch */
+.conect-div {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    background-color: #f8f8f8;
+}
+
+/* form  */
+.conect-form {
+    background-color: #0E3466;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conect-form>div {
+    margin-left: 80px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.conect-form>div>h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 85px;
+    /* or 131% */
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.conect-form>div>h1>span {
+    border-bottom: 5px solid white;
+    padding-bottom: 20px;
+}
+
+.inputs {
+    max-width: 500px;
+    position: relative;
+}
+
+.inputs>input {
+    width: 100%;
+    padding: 22px 53px;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.04em;
+    color: #192437;
+    border-radius: 7px;
+    margin-bottom: 24px;
+}
+
+.inputs>textarea {
+    max-width: 100%;
+    padding: 22px 53px;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.04em;
+    color: #192437;
+    border-radius: 7px;
+    margin-bottom: 24px;
+}
+
+.inputs>img {
+    position: absolute;
+    top: 21px;
+    left: 21px;
+}
+
+.conect-form>div>button {
+    background-color: #EC2232;
+    padding: 22px 66px;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+}
+
+/* map  */
+.conect-map {
+    background-color: #F8F8F8;
+    position: relative;
+}
+
+.conect-map>img {
+    max-width: 700px;
+    height: 670px;
+    position: absolute;
+    margin-top: 80px;
+    left: -100px;
+}
+
 /* footer  */
 
 .footer {
@@ -508,6 +599,24 @@ header>section>div>p {
 
 }
 
+@media only screen and (max-width: 1410px) {
+
+    .conect-form>div {
+        margin-left: 30px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    /* map  */
+
+    .conect-map>img {
+        max-width: 650px;
+        height: 650px;
+        margin-top: 45px;
+        left: -70px;
+    }
+}
+
 @media only screen and (max-width: 1280px) {
 
     .all-services {
@@ -541,6 +650,24 @@ header>section>div>p {
 
     .w1r {
         display: none;
+    }
+
+    /* Get in touch */
+    .conect-div {
+        grid-template-columns: 60% 40%;
+    }
+
+    .conect-form>div>h1 {
+        font-size: 60px;
+        line-height: 75px;
+    }
+
+    /* map  */
+    .conect-map>img {
+        max-width: 530px;
+        height: 570px;
+        margin-top: 65px;
+        left: -70px;
     }
 }
 
