@@ -467,8 +467,8 @@ header>section>div>p {
 }
 
 .inputs>textarea {
-    max-width: 100%;
-    padding: 22px 53px;
+    width: 100%;
+    padding: 20px 53px;
     font-size: 20px;
     line-height: 23px;
     letter-spacing: -0.04em;
@@ -479,7 +479,7 @@ header>section>div>p {
 
 .inputs>img {
     position: absolute;
-    top: 21px;
+    top: 23px;
     left: 21px;
 }
 
@@ -704,6 +704,44 @@ header>section>div>p {
 
 }
 
+@media only screen and (max-width: 1160px) {
+
+    /* Get in touch */
+    .conect-div {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    /* form  */
+
+    .conect-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .conect-form>div {
+        max-width: 600px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .conect-form>div>button {
+        margin-bottom: 50px
+    }
+
+    .inputs {
+        width: 100%;
+    }
+
+    .conect-map {
+        display: none;
+    }
+
+}
+
 @media only screen and (max-width: 900px) {
 
     /* Banner  */
@@ -799,6 +837,30 @@ header>section>div>p {
         font-size: 18.1975px;
         max-width: 200px;
     }
+}
+
+@media only screen and (max-width: 705px) {
+
+
+    .conect-form>div {
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 80px;
+        padding: 10px;
+    }
+
+    .inputs {
+        width: 75%;
+    }
+
+    .inputs>input {
+        width: 90%;
+    }
+
+    .inputs>textarea {
+        width: 90%;
+    }
+
 }
 
 @media only screen and (max-width: 655px) {
@@ -930,6 +992,25 @@ header>section>div>p {
     .service>div>h4 {
         font-size: 25px;
     }
+
+    .conect-form>div {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .inputs {
+        width: 65%;
+    }
+
+    .inputs>input {
+        width: 90%;
+    }
+
+    .inputs>textarea {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -982,6 +1063,10 @@ header>section>div>p {
 
     .industry-body .title {
         font-size: 17px;
+    }
+
+    .inputs {
+        max-width: 260px;
     }
 }
 
