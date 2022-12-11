@@ -305,12 +305,84 @@ header>section>div>p {
     margin: 0;
 }
 
+
+/* Machine infra  */
 .machine-infra {
     background-image: url("Images/loaer\ baner.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 900px;
     margin-top: 120px;
+}
+
+.machina-div {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 842.32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    color: white;
+}
+
+.machina-div .w1r {
+    max-width: 188px;
+    max-height: 188px;
+    margin: auto 0 auto 0;
+}
+
+.machina-div>h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.machina-div h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    max-width: 525px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.machina-div p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    max-width: 600px;
+}
+
+.machina-cards {
+    margin-top: 80px;
+    display: flex;
+    gap: 80px;
+}
+
+.machina-card h3 {
+    font-weight: 500;
+    font-size: 42.1214px;
+    color: white;
+    margin: 0;
+}
+
+.machina-card>p>span {
+    font-weight: 600;
+}
+
+.machina-card>p {
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 23.1975px;
+    width: 200px;
 }
 
 /* Boards */
@@ -430,6 +502,10 @@ header>section>div>p {
         max-width: 100%;
     }
 
+    .machina-div {
+        padding-top: 40px;
+    }
+
 }
 
 @media only screen and (max-width: 1280px) {
@@ -448,6 +524,24 @@ header>section>div>p {
         margin-bottom: 50px;
     }
 
+    .machine-infra {
+        background-image: url("Images/loaer\ baner.png");
+        background-repeat: no-repeat;
+        background-size: 150%;
+        margin-top: 120px;
+    }
+
+
+    .machina-div {
+        padding-top: 10px;
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .w1r {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -512,6 +606,21 @@ header>section>div>p {
 }
 
 @media only screen and (max-width: 865px) {
+    .machina-div h1 {
+        font-size: 50px;
+        line-height: 65px;
+        max-width: 425px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .machina-cards {
+        margin-top: 50px;
+        gap: 50px;
+    }
+}
+
+@media only screen and (max-width: 865px) {
 
     /* footer  */
     .footer-border2 {
@@ -572,6 +681,10 @@ header>section>div>p {
 }
 
 @media only screen and (max-width: 616px) {
+    .industry-part {
+        margin-top: 400px;
+    }
+
     .footer-border1 {
         display: none;
     }
@@ -688,7 +801,12 @@ header>section>div>p {
     .customer-all h1 {
         font-size: 26px;
     }
+
+    .industry-body .title {
+        font-size: 17px;
+    }
 }
+
 
 @media only screen and (max-width: 420px) {
     .customer-all {
@@ -718,6 +836,14 @@ header>section>div>p {
         line-height: 33px;
         padding-left: 20px;
         padding-bottom: 10px;
+    }
+
+    .industry-body .title {
+        font-size: 15px;
+    }
+
+    .industry-part {
+        margin-top: 100px;
     }
 
     /* footer  */
