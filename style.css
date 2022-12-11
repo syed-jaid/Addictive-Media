@@ -352,7 +352,7 @@ header>section>div>p {
     margin-bottom: 10px;
 }
 
-.machina-div p {
+.machina-div>div>p {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -611,7 +611,6 @@ header>section>div>p {
         line-height: 65px;
         max-width: 425px;
         margin-top: 15px;
-        margin-bottom: 10px;
     }
 
     .machina-cards {
@@ -653,9 +652,29 @@ header>section>div>p {
         height: 100px;
     }
 
+    .machina-div h1 {
+        font-size: 40px;
+        line-height: 55px;
+        max-width: 325px;
+        margin-top: 15px;
+    }
+
+    .machina-cards {
+        margin-top: 30px;
+        gap: 35px;
+    }
+
+    .machina-card h3 {
+        font-size: 32.1214px;
+    }
+
+    .machina-card>p {
+        font-size: 18.1975px;
+        max-width: 200px;
+    }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 655px) {
 
     /* Header  */
     .header-logo {
@@ -677,6 +696,38 @@ header>section>div>p {
 
     .customer-all h1 {
         font-size: 40px;
+    }
+
+    .machine-infra {
+        background-image: url("Images/loaer\ baner\ sm.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .machina-div h1 {
+        font-size: 30px;
+        line-height: 45px;
+        max-width: 225px;
+        margin-top: 0;
+    }
+
+
+    .machina-cards {
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    .machina-card>img {
+        width: 45px;
+    }
+
+    .machina-card h3 {
+        font-size: 22.1214px;
+    }
+
+    .machina-card>p {
+        font-size: 14.1975px;
+        max-width: 130px;
     }
 }
 
@@ -807,6 +858,40 @@ header>section>div>p {
     }
 }
 
+
+@media only screen and (max-width: 455px) {
+    .machina-div h1 {
+        font-size: 27px;
+        line-height: 30px;
+        max-width: 225px;
+        margin-top: 0;
+    }
+
+    .machina-div h5 {
+        margin: 5px 0 10px 0;
+    }
+
+    .machina-div>div>p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .machina-cards {
+        margin-top: 20px;
+        gap: 0px;
+    }
+
+    .machina-card h3 {
+        font-size: 19.1214px;
+    }
+
+    .machina-card>p {
+        font-size: 12.1975px;
+        max-width: 115px;
+    }
+}
 
 @media only screen and (max-width: 420px) {
     .customer-all {
