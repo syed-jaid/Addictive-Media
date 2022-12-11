@@ -348,7 +348,80 @@ header>section>div>p {
 .footer {
     background-color: #000;
     color: white;
-    padding: 90px auto 90px auto !important;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 400px;
+}
+
+.footer-border1 {
+    border: 1px solid #565656;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 180px;
+}
+
+.footer-border2 {
+    border: 1px solid #565656;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 180px;
+}
+
+.footer-start {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 70px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    max-width: 210px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+}
+
+.footer-middel>h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: -0.02em;
+    margin-left: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.footer-middel {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+}
+
+.footer-middel>div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+}
+
+.footer-middel>div>ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 48px;
+    margin: 0;
+}
+
+.footer-end {
+    text-align: end;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+}
+
+.footer-end>img {
+    margin-left: 30px;
 }
 
 @media only screen and (max-width: 1550px) {
@@ -379,6 +452,12 @@ header>section>div>p {
         max-height: 700px;
     }
 
+    .footer {
+        flex-wrap: wrap;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -405,6 +484,19 @@ header>section>div>p {
         font-size: 50px;
         margin-top: 25px;
         margin-bottom: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 865px) {
+
+    /* footer  */
+    .footer-border2 {
+        display: none;
+    }
+
+    .footer-end {
+        text-align: start;
     }
 }
 
@@ -437,6 +529,18 @@ header>section>div>p {
     .customer-all h1 {
         font-size: 40px;
     }
+}
+
+@media only screen and (max-width: 616px) {
+    .footer-border1 {
+        display: none;
+    }
+
+    .footer {
+        justify-content: start;
+        gap: 40px;
+    }
+
 }
 
 @media only screen and (max-width: 590px) {
@@ -552,4 +656,8 @@ header>section>div>p {
         padding-bottom: 10px;
     }
 
+    /* footer  */
+    .footer-middel>div {
+        flex-direction: column;
+    }
 }
