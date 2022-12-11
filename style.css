@@ -432,6 +432,24 @@ header>section>div>p {
 
 }
 
+@media only screen and (max-width: 1280px) {
+
+    .all-services {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+    }
+
+    .m {
+        margin-bottom: 50px;
+    }
+
+    .f {
+        margin-bottom: 50px;
+    }
+
+}
+
 @media only screen and (max-width: 1200px) {
 
     /* Banner  */
@@ -450,6 +468,11 @@ header>section>div>p {
         background-color: #F9F9F9;
         background-size: 100%;
         max-height: 700px;
+    }
+
+
+    .industry-title {
+        font-size: 50px;
     }
 
     .footer {
@@ -504,6 +527,23 @@ header>section>div>p {
     .working-people .card-b {
         border-right: 1px solid #ffffff;
     }
+
+    .industry-title {
+        font-size: 40px;
+    }
+
+    .service {
+        max-width: 584px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .industry-top>img {
+        width: 100px;
+        height: 100px;
+    }
+
 }
 
 @media only screen and (max-width: 650px) {
@@ -575,6 +615,30 @@ header>section>div>p {
         font-size: 35px;
     }
 
+    /* .service */
+    .industry-title {
+        font-size: 35px;
+    }
+
+    .industry-top>img {
+        display: none;
+    }
+
+    .industry-body>img {
+        width: 35px;
+    }
+
+    .industry-body .title {
+        font-size: 20px;
+    }
+
+    .all-services {
+        padding-left: 30px;
+    }
+
+    .service>div>h4 {
+        font-size: 25px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
