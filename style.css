@@ -343,6 +343,14 @@ header>section>div>p {
     margin-right: auto;
 }
 
+/* footer  */
+
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 90px auto 90px auto !important;
+}
+
 @media only screen and (max-width: 1550px) {
 
     .allcard {
